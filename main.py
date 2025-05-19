@@ -30,6 +30,7 @@ ax2 = ax1.twinx()
 ax2.plot(t_s, i_A, label='Corriente (A)', color='red')
 ax2.set_ylabel('Corriente (A)', color='red')
 
+plt.savefig('signals.png')
 plt.show()
 
 #In[]:
@@ -64,4 +65,6 @@ ax.plot([0, 0], [0, amp_v], color='blue', linewidth=2, label='v_V')
 ax.plot([phase_deg, phase_deg], [0, amp_i], color='red', linewidth=2, label='i_mA')
 
 ax.legend(loc='upper right')
+
+plt.savefig('phasors.png')
 plt.show()
