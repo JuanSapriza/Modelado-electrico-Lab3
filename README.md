@@ -1,6 +1,6 @@
 # Laboratorio 3
 
-Bienvenidos blablabla
+Este es un visor de fasores para el lab 3 de Modelado electrico en UCU
 
 ## Instalar requerimientos
 
@@ -8,7 +8,7 @@ Bienvenidos blablabla
 Abrir una terminal en la carpeta del repositorio y correr
 
 ```python
-pip isntall -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Correr el ejemplo
